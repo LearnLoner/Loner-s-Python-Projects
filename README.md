@@ -1,4 +1,6 @@
 # Loner-s-Python-Projects
+![1692453249046](https://github.com/LearnLoner/Loner-s-Python-Projects/assets/137020156/c1e21244-a125-443b-82ad-08916a932d92)
+
 ## 🚀 Welcome to our GitHub repository! 🐍
 
 Explore the world of Python programming with our collection of captivating projects and code examples, designed to take you from basic concepts to advanced techniques. At https://github.com/LearnLoner, we're passionate about making learning smoother, and this repository is a testament to our commitment.
