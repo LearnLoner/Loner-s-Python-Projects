@@ -1,8 +1,12 @@
+#importing libraries
 import googletrans 
 from tkinter import *
 from tkinter import ttk,messagebox
 import textblob
+#Note: some of these libraries may not be preinstalled on your python version
+#      Download it by using "pip install" command in the terminal
 
+#defining functions
 def tris():
     global lang
     try:
@@ -15,6 +19,7 @@ def tris():
         messagebox.showerror("googletrans","please try again")
         
 
+#creating GUI
 root=Tk()
 root.minsize(1200,500)
 root.maxsize(1200,500)
@@ -33,7 +38,7 @@ lan1=lang.keys
 
 com1=ttk.Combobox(root,values=lanV,font='CouriesNew 14',state='r',)
 com1.place(x=50,y=130)
-com1.set("english")
+com1.set("english") #setting default
 
 f=Frame(root)
 f.place(x=50,y=200,width=440,height=210)
