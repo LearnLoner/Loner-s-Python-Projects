@@ -1,5 +1,5 @@
 # Loner-s-Python-Projects
-![1692453249046](https://github.com/LearnLoner/Loner-s-Python-Projects/assets/137020156/c1e21244-a125-443b-82ad-08916a932d92)
+![1692453249046](https://github.com/LearnLoner/Loner-s-Python-Projects/assets/137020156/acdd5887-54ed-4745-810f-b9baef60b576)
 
 ## 🚀 Welcome to our GitHub repository! 🐍
 
