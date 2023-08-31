@@ -3,12 +3,12 @@ import googletrans
 from tkinter import *
 from tkinter import ttk,messagebox
 import textblob
-#Note: some of these libraries may not be preinstalled on your python version
-#      Download it by using "pip install" command in the terminal
+#Note: some of these libraries may not be preinstalled on your python version; Download it by using "pip install" command in the terminal
 
 #defining functions
 def tris():
     global lang
+    #handeling errors
     try:
         t=googletrans.Translator()
         translated=t.translate(text=text1.get(1.0, END),src = com1.get(), dest = com2.get())
@@ -23,10 +23,11 @@ def tris():
 root=Tk()
 root.minsize(1200,500)
 root.maxsize(1200,500)
+#Fixed sized GUI 
+
 root.title('Language Translator')
 root.configure(background="SlateBlue4")
-l1=Label(root,text='Python Project - Language Translator',bg='SlateBlue4'
-         ,fg='white',padx=3,pady=10, font='ArialRoundedMTBold 30 bold')
+l1=Label(root,text='Python Project - Language Translator',bg='SlateBlue4',fg='white',padx=3,pady=10, font='ArialRoundedMTBold 30 bold')
 l1.pack()
 
 mnfrm=Frame(root,bg='gainsboro')
